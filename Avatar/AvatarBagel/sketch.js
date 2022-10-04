@@ -8,6 +8,8 @@ let sensitivityZ;
   //mic global
 let mic;
 
+/// trying to find
+
 function setup() {
   
   createCanvas(c, d, WEBGL);
