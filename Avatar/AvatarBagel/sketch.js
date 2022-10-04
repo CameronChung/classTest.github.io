@@ -26,6 +26,7 @@ function draw() {
   
   //mic.getLevel
   micLevel = mic.getLevel();
+  console.log(mic.getLevel()*500);
   
   //light and movement of background
   background(micLevel*2000, micLevel*1000, micLevel*1600);
