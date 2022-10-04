@@ -47,7 +47,7 @@ function draw() {
   //personl bagel
   torus(windowWidth/10, 50, detailY.value());
   noStroke();
-  console.log(windowWidth)
+  //console.log(windowWidth)
 
   //surrounding environment / movement of surrounding torus
   for (let i = 0; i <= 12; i++) {
