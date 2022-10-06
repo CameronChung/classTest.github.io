@@ -17,22 +17,22 @@ let sanrio = [{
     color:"pink"
 }, {
     name:"Hello Kitty", 
-    coloe:"white"
+    color:"white"
 }];
 
 function setup() {
     createCanvas(600, 600);
     background(200);
-
 }
 
 function draw() {
-    
+
 }
 
 function mousePressed() {
     background(random(200, 255));
     randomIndex = int(random(sanrio.length));
-    Text(sanrio[randomIndex].name, 50, 50);
+    text(sanrio[randomIndex].name, 50, 50);
+    console.log(sanrio[randomIndex]);
     sanrio.splice(randomIndex, 1);
 }
