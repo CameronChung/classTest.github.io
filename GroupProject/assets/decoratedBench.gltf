@@ -677,6 +677,20 @@
         },
         {
             "doubleSided" : true,
+            "name" : "Material.016",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.7991023659706116,
+                    0.5088807344436646,
+                    0.7083758115768433,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
             "extensions" : {
                 "KHR_materials_specular" : {
                     "specularColorFactor" : [
@@ -963,7 +977,8 @@
                         "NORMAL" : 69,
                         "TEXCOORD_0" : 70
                     },
-                    "indices" : 71
+                    "indices" : 71,
+                    "material" : 11
                 }
             ]
         },
@@ -977,7 +992,7 @@
                         "TEXCOORD_0" : 74
                     },
                     "indices" : 75,
-                    "material" : 11
+                    "material" : 12
                 }
             ]
         },
@@ -991,7 +1006,7 @@
                         "TEXCOORD_0" : 78
                     },
                     "indices" : 79,
-                    "material" : 12
+                    "material" : 13
                 }
             ]
         }
